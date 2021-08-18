@@ -89,5 +89,10 @@ public class BaseClass {
 			
 
 	}
+	public static void tabClose() {
+		driver.close();
+		driver.quit();
+
+	}
 
 }
